@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,7 +85,7 @@ button {
     <button id="no">no</button>
   </div>
 
-  <div class="shy">The "no" button seems to have commitment issues 😉</div>
+  <div class="shy">“no” seems a bit shy 😈</div>
 </div>
 
 <script>
@@ -110,14 +111,11 @@ noBtn.addEventListener("mouseenter", moveNo);
 noBtn.addEventListener("click", moveNo);
 
 yesBtn.onclick = () => {
-  document.body.innerHTML = `
-    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;background:#000;padding:20px;">
-      <img src="gatsby.gif" alt="Leonardo DiCaprio Cheers!" style="max-width:100%;max-height:90vh;border-radius:16px;box-shadow:0 20px 40px rgba(255,77,109,0.4);" />
-      <p style="color:white;font-family:Arial;font-size:24px;margin-top:20px;">Perfect choice! 🥂</p>
-    </div>
-  `;
+  document.body.innerHTML =
+    "<h1 style='font-family:Arial'>Answer recorded: YES</h1>";
 };
 </script>
 
 </body>
 </html>
+```
